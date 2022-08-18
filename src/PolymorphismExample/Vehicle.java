@@ -13,4 +13,20 @@ public class Vehicle {
         this.speed = speed;
         this.direction = direction;
     }
+
+    public void start() {
+        System.out.println(start);
+    }
+
+    public void stop() {
+        System.out.println(stop);
+    }
+
+    public void speed() {
+        System.out.println(speed);
+    }
+
+    public void direction() {
+        System.out.println(direction);
+    }
 }
